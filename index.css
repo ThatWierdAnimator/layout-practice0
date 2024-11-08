@@ -72,15 +72,29 @@ main div:nth-of-type(1) {
     width: 100%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+main div:nth-of-type(1) article {
+    background-color: #f2f2f2;
 }
 
 main div:nth-of-type(1) article.third {
     width: 20%;
-    margin: 0 5%;
+    margin: 0 0.75%;
 }
 
-main div:nth-of-type(1) article.third img {
+main div:nth-of-type(1) article.third:nth-of-type(1) h3 {
+    color: #178a27;
+}
+
+main div:nth-of-type(1) article.third:nth-of-type(1) button {
+    background-color: #178a27;
+    border: none;
+    border-radius: 3px;;
+}
+
+main div:nth-of-type(1) article img {
     width: 100%;
 }

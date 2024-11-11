@@ -473,7 +473,7 @@ footer img {
     }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 650px) {
     nav button {
         padding: 10px 7.5px;
     }
